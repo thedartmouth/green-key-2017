@@ -1,0 +1,103 @@
+header {
+  background-color: rgba(255,255,255,0.95);
+  position: fixed;
+  width: 100%;
+}
+
+header p {
+  font-family: georgia;
+  padding-bottom: 0;
+  margin-bottom: 3px;
+}
+
+.bonfire {
+  background-image: url("../img/bonfire.jpg");
+  height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 200;
+}
+
+.article_list {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  height: auto;
+  background-color: rgba(0,0,0,0.4);
+  padding: 10px;
+  z-index: -100;
+}
+
+.article_box {
+  width: 350px;
+  padding: 28px;
+  text-align: center;
+  color: white;
+  font-family: georgia;
+  vertical-align: center;
+  border: 1px solid #e6e6e6;
+  border-radius: 5px;
+  margin: 5px;
+  min-height: 110px;
+  font-size: 1.1em;
+}
+
+.article_box:hover {
+  cursor: pointer;
+  background-color: rgba(255,255,255,0.2);
+}
+
+.article {
+  height: 100%;
+  font-family: georgia;
+  margin: 30px;
+  margin-left: 80px;
+  margin-right: 80px;
+  margin-bottom: 60px;
+  display: none;
+}
+
+.article h1,h2 {
+  text-align: center;
+}
+
+.articles hr {
+  padding-bottom: 14px;
+}
+
+.article p {
+  font-size: 1.4em;
+}
+
+.article p.by-line {
+  text-align: center;
+}
+
+.homepage {
+  text-align: center;
+  padding-top: 15px;
+}
+
+.homepage a {
+  text-align: center;
+  font-family: georgia;
+  color: #00693E;
+  border: 1px solid #00693E;
+  border-radius: 2px;
+  padding: 6px;
+}
+
+.homepage a:hover {
+  text-decoration: none;
+  background-color: rgba(0,100,0,0.1);
+}
+
+#start_article {
+  background-color: rgba(0,0,0,0.4);
+  height: 40px;
+}

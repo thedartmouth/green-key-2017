@@ -52,6 +52,7 @@
 		<link rel="stylesheet" type="text/css" media="print" href="http://d17odh4hb0gp5r.cloudfront.net/20161017mylFsswwKf/dist/css/print.css" />
 
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+		<link rel="stylesheet" href="css/style.css">
 
 
 		<link href="http://vjs.zencdn.net/c/video-js.css" rel="stylesheet">
@@ -84,44 +85,17 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 			<div class="container-fluid hidden-sm hidden-xs">
 									<div class="row">
 					<div class="col-md-6  about-col">
-						<a href="http://www.thedartmouth.com"><img src="img/d_logo.png"></a>
-							<span class="dropdown">
-								<a href="#" data-toggle="dropdown">Sections<span class="caret"></span></a>
-								<ul class="dropdown-menu">
-									<li><a href="http://www.thedartmouth.com/section/news">News</a></li>
-									<li><a href="http://www.thedartmouth.com/section/opinion">Opinion</a></li>
-									<li><a href="http://www.thedartmouth.com/section/sports">Sports</a></li>
-									<li><a href="http://www.thedartmouth.com/section/arts">Arts</a></li>
-									<li><a href="http://www.thedartmouth.com/section/mirror">Mirror</a></li>
-									<li><a href="http://www.thedartmouth.com/blog/dartbeat">Dartbeat</a></li>
-									<li><a href="http://www.thedartmouth.com/multimedia">Multimedia</a></li>
-								</ul>
-							</span>
+						<a href="http://www.thedartmouth.com">&larr; Back to TheDartmouth.com</a>
 
-						<a href="#" class="dropdown-toggle drop-search" id="search-toggle" data-toggle="dropdown">
-							<span class="icon-search" aria-hidden="true"></span>
-					    	<span class="glyphicon glyphicon-search" aria-hidden="true"></span>
-					    	<span class="caret">
-						</a>
-
-						<ul class="dropdown-menu">
-				    			<li>
-				    				<form id="search" method="get" action="/search/" class="search-field text-center">
-									<input type="hidden" name="a" value="1" />
-									<input type="hidden" name="o" value="date" />
-									<input id="searchField" type="text" name="s" class="search-input" placeholder="Search" onfocus="this.placeholder = ''" onblur="this.placeholder = 'search'"/>
-								</form>
-				    			</li>
-				    		</ul>
 	</div>
 
-		<div class="col-md-2 col-md-offset-4 social-col">
-
+		<div class="col-md-3 col-md-offset-3 social-col">
+			<!-- Test -->
 <p class="social-icons">
-								<a href="https://www.facebook.com/TheDartmouth/" target="_blank"></i><i class="fa fa-facebook"></i></a>
+Homecoming 16F								<!-- <a href="https://www.facebook.com/TheDartmouth/" target="_blank"></i><i class="fa fa-facebook"></i></a>
 								<a href="https://twitter.com/thedartmouth" target="_blank"></i><i class="fa fa-twitter"></i></a>
 								<a href="https://www.instagram.com/thedartmouth/" target="_blank"></i><i class="fa fa-instagram"></i></a>
-								<a href="https://www.youtube.com/user/Dartmouth" target="_blank"></i><i class="fa fa-youtube"></i></a>
+								<a href="https://www.youtube.com/user/Dartmouth" target="_blank"></i><i class="fa fa-youtube"></i></a> -->
 							</p>
 						</div>
 	</div>
@@ -130,40 +104,194 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 			</div>
 		</header>
 
-<div class="container main-content">
-	<div class="row">
+		<div class="bonfire">
+		</div>
+		<div class="article_list">
+			<div class="article_box" onclick="displayArticle('0')">
+				What Does Tradition Mean to Us?
+				<br>
+				<em>By: Anna Staropoli</em>
+			</div>
+			<div class="article_box" onclick="displayArticle('1')">
+				Politics, Past and Present
+				<br>
+				<em>By: Carolyn Zhou</em>
+			</div>
+			<div class="article_box" onclick="displayArticle('2')">
+				Different Paths, Different Places
+				<br>
+				<em>By: Kaina Chen</em>
+			</div>
+			<div class="article_box" onclick="displayArticle('3')">
+				The Traditional Classroom Revisited
+				<br>
+				<em>By: Sungil Ahn</em>
+			</div>
+			<div class="article_box" onclick="displayArticle('4')">
+				Lest the New Traditions Fail: Examining the House System
+				<br>
+				<em>By: Alexa Green</em>
+			</div>
+			<div class="article_box" onclick="displayArticle('5')">
+				The Wacky World of Team Traditions
+				<br>
+				<em>By: Matt Yuen</em>
+			</div>
+			<div class="article_box" onclick="displayArticle('6')">
+				Observations on Religion
+				<br>
+				<em>By: Michaela Ledoux</em>
+			</div>
+			<div class="article_box" onclick="displayArticle('7')">
+				An Old Commitment, Embraced Anew
+				<br>
+				<em>By: Amanda Zhou</em>
+			</div>
+			<div class="article_box" onclick="displayArticle('8')">
+				Through the Looking Glass
+				<br>
+				<em>By: Natalie Mendolia</em>
+			</div>
+		</div>
+		<p id="start_article"> </p>
+		<div class="articles">
+			<!--ARTICLE 0-->
+			<div class="article">
+				<h1>What Does Tradition Mean to Us?</h1>
+				<p class="by-line">By: Anna Staropoli</p>
+				<p>	Dartmouth’s chapter of Phi Beta Kappa inducted 20 new members from the Class of 2017 last night. The annual induction ceremony was held at College President Phil Hanlon’s house. </p>
+				<p>	The Class of 2017 inductees are Marielle Brady ’17, Brian Chen ’17, Hae-Lin Cho ’17, Liza Couser ’17, Carrie Ann Davison ’17, Christopher DiPreta ’17, Devyn Greenberg ’17, Hallie Huffaker ’17, Daniel Lee ’17, Daniel Magoon ’17, Meghana Mishra ’17, Olivia Powell ’17, Abiah Pritchard ’17, Yue Wang ’17, Qi Wei ’17, Alisa White ’17, Yerin Yang ’17, Zhecheng Yao ’17, Yichen Zhang ’17 and Ran Zhuo ’17. </p>
+				<p>	To qualify for membership, an undergraduate must have completed eight resident or off-campus terms at the College, and rank in the top 20 students in their class based on GPA. </p>
+				<p>	The Phi Beta Kappa Sophomore prize is given to students who have completed five resident or off-campus terms at the College and have the highest academic rank. Seven members of the Class of 2018 will be awarded with this prize: Katherine Clayton ’18, Lillian Eisner ’18, Patrick Harvey ’18, Kevin Kang ’18, Hung Nguyen ’18, Nicholas Norwitz ’18 and Jean Zhou ’18. </p>
+				<p>	Dartmouth’s chapter of Phi Beta Kappa inducted 20 new members from the Class of 2017 last night. The annual induction ceremony was held at College President Phil Hanlon’s house. </p>
+				<p>	The Class of 2017 inductees are Marielle Brady ’17, Brian Chen ’17, Hae-Lin Cho ’17, Liza Couser ’17, Carrie Ann Davison ’17, Christopher DiPreta ’17, Devyn Greenberg ’17, Hallie Huffaker ’17, Daniel Lee ’17, Daniel Magoon ’17, Meghana Mishra ’17, Olivia Powell ’17, Abiah Pritchard ’17, Yue Wang ’17, Qi Wei ’17, Alisa White ’17, Yerin Yang ’17, Zhecheng Yao ’17, Yichen Zhang ’17 and Ran Zhuo ’17. </p>
+				<p>	To qualify for membership, an undergraduate must have completed eight resident or off-campus terms at the College, and rank in the top 20 students in their class based on GPA. </p>
+				<p>	The Phi Beta Kappa Sophomore prize is given to students who have completed five resident or off-campus terms at the College and have the highest academic rank. Seven members of the Class of 2018 will be awarded with this prize: Katherine Clayton ’18, Lillian Eisner ’18, Patrick Harvey ’18, Kevin Kang ’18, Hung Nguyen ’18, Nicholas Norwitz ’18 and Jean Zhou ’18. </p>
+				<p><em>Huffaker is a member of The Dartmouth Senior Staff.</em></p>
+				<p class="homepage"><a href="#">Back to the top</a></p>
+			</div>
 
+			<!--ARTICLE 1-->
+			<div class="article">
+				<h1>Politics, Past and Present</h1>
+				<p class="by-line">By: Carolyn Zhou</p>
+				<p>	Dartmouth’s chapter of Phi Beta Kappa inducted 20 new members from the Class of 2017 last night. The annual induction ceremony was held at College President Phil Hanlon’s house. </p>
+				<p>	The Class of 2017 inductees are Marielle Brady ’17, Brian Chen ’17, Hae-Lin Cho ’17, Liza Couser ’17, Carrie Ann Davison ’17, Christopher DiPreta ’17, Devyn Greenberg ’17, Hallie Huffaker ’17, Daniel Lee ’17, Daniel Magoon ’17, Meghana Mishra ’17, Olivia Powell ’17, Abiah Pritchard ’17, Yue Wang ’17, Qi Wei ’17, Alisa White ’17, Yerin Yang ’17, Zhecheng Yao ’17, Yichen Zhang ’17 and Ran Zhuo ’17. </p>
+				<p>	To qualify for membership, an undergraduate must have completed eight resident or off-campus terms at the College, and rank in the top 20 students in their class based on GPA. </p>
+				<p>	The Phi Beta Kappa Sophomore prize is given to students who have completed five resident or off-campus terms at the College and have the highest academic rank. Seven members of the Class of 2018 will be awarded with this prize: Katherine Clayton ’18, Lillian Eisner ’18, Patrick Harvey ’18, Kevin Kang ’18, Hung Nguyen ’18, Nicholas Norwitz ’18 and Jean Zhou ’18. </p>
+				<p><em>Huffaker is a member of The Dartmouth Senior Staff.</em></p>
+				<p class="homepage"><a href="#">Back to the top</a></p>
+			</div>
 
-		<div style="text-align:center">
+			<!--ARTICLE 2-->
+			<div class="article">
+				<h1>Different Paths, Different Places</h1>
+				<p class="by-line">By: Kaina Chen</p>
+				<p>	Dartmouth’s chapter of Phi Beta Kappa inducted 20 new members from the Class of 2017 last night. The annual induction ceremony was held at College President Phil Hanlon’s house. </p>
+				<p>	The Class of 2017 inductees are Marielle Brady ’17, Brian Chen ’17, Hae-Lin Cho ’17, Liza Couser ’17, Carrie Ann Davison ’17, Christopher DiPreta ’17, Devyn Greenberg ’17, Hallie Huffaker ’17, Daniel Lee ’17, Daniel Magoon ’17, Meghana Mishra ’17, Olivia Powell ’17, Abiah Pritchard ’17, Yue Wang ’17, Qi Wei ’17, Alisa White ’17, Yerin Yang ’17, Zhecheng Yao ’17, Yichen Zhang ’17 and Ran Zhuo ’17. </p>
+				<p>	To qualify for membership, an undergraduate must have completed eight resident or off-campus terms at the College, and rank in the top 20 students in their class based on GPA. </p>
+				<p>	The Phi Beta Kappa Sophomore prize is given to students who have completed five resident or off-campus terms at the College and have the highest academic rank. Seven members of the Class of 2018 will be awarded with this prize: Katherine Clayton ’18, Lillian Eisner ’18, Patrick Harvey ’18, Kevin Kang ’18, Hung Nguyen ’18, Nicholas Norwitz ’18 and Jean Zhou ’18. </p>
+				<p><em>Huffaker is a member of The Dartmouth Senior Staff.</em></p>
+				<p class="homepage"><a href="#">Back to the top</a></p>
+			</div>
 
-<div class="Title 1">
-			<h6 class="art-above-headline has-photo"><a>Homecoming</a></h6>
+			<!--ARTICLE 3-->
+			<div class="article">
+				<h1>The Traditional Classroom Revisited</h1>
+				<p class="by-line">By: Sungil Ahn</p>
+				<p>	Dartmouth’s chapter of Phi Beta Kappa inducted 20 new members from the Class of 2017 last night. The annual induction ceremony was held at College President Phil Hanlon’s house. </p>
+				<p>	The Class of 2017 inductees are Marielle Brady ’17, Brian Chen ’17, Hae-Lin Cho ’17, Liza Couser ’17, Carrie Ann Davison ’17, Christopher DiPreta ’17, Devyn Greenberg ’17, Hallie Huffaker ’17, Daniel Lee ’17, Daniel Magoon ’17, Meghana Mishra ’17, Olivia Powell ’17, Abiah Pritchard ’17, Yue Wang ’17, Qi Wei ’17, Alisa White ’17, Yerin Yang ’17, Zhecheng Yao ’17, Yichen Zhang ’17 and Ran Zhuo ’17. </p>
+				<p>	To qualify for membership, an undergraduate must have completed eight resident or off-campus terms at the College, and rank in the top 20 students in their class based on GPA. </p>
+				<p>	The Phi Beta Kappa Sophomore prize is given to students who have completed five resident or off-campus terms at the College and have the highest academic rank. Seven members of the Class of 2018 will be awarded with this prize: Katherine Clayton ’18, Lillian Eisner ’18, Patrick Harvey ’18, Kevin Kang ’18, Hung Nguyen ’18, Nicholas Norwitz ’18 and Jean Zhou ’18. </p>
+				<p><em>Huffaker is a member of The Dartmouth Senior Staff.</em></p>
+				<p class="homepage"><a href="#">Back to the top</a></p>
+			</div>
 
-</div>
+			<!--ARTICLE 4-->
+			<div class="article">
+				<h1>Lest the New Traditions Fail: Examining the House System</h1>
+				<p class="by-line">By: Alexa Green</p>
+				<p>	Dartmouth’s chapter of Phi Beta Kappa inducted 20 new members from the Class of 2017 last night. The annual induction ceremony was held at College President Phil Hanlon’s house. </p>
+				<p>	The Class of 2017 inductees are Marielle Brady ’17, Brian Chen ’17, Hae-Lin Cho ’17, Liza Couser ’17, Carrie Ann Davison ’17, Christopher DiPreta ’17, Devyn Greenberg ’17, Hallie Huffaker ’17, Daniel Lee ’17, Daniel Magoon ’17, Meghana Mishra ’17, Olivia Powell ’17, Abiah Pritchard ’17, Yue Wang ’17, Qi Wei ’17, Alisa White ’17, Yerin Yang ’17, Zhecheng Yao ’17, Yichen Zhang ’17 and Ran Zhuo ’17. </p>
+				<p>	To qualify for membership, an undergraduate must have completed eight resident or off-campus terms at the College, and rank in the top 20 students in their class based on GPA. </p>
+				<p>	The Phi Beta Kappa Sophomore prize is given to students who have completed five resident or off-campus terms at the College and have the highest academic rank. Seven members of the Class of 2018 will be awarded with this prize: Katherine Clayton ’18, Lillian Eisner ’18, Patrick Harvey ’18, Kevin Kang ’18, Hung Nguyen ’18, Nicholas Norwitz ’18 and Jean Zhou ’18. </p>
+				<p><em>Huffaker is a member of The Dartmouth Senior Staff.</em></p>
+				<p class="homepage"><a href="#">Back to the top</a></p>
+			</div>
 
-<hr>
+			<!--ARTICLE 5-->
+			<div class="article">
+				<h1>The Wacky World of Team Traditions</h1>
+				<p class="by-line">By: Matt Yuen</p>
+				<p>	Dartmouth’s chapter of Phi Beta Kappa inducted 20 new members from the Class of 2017 last night. The annual induction ceremony was held at College President Phil Hanlon’s house. </p>
+				<p>	The Class of 2017 inductees are Marielle Brady ’17, Brian Chen ’17, Hae-Lin Cho ’17, Liza Couser ’17, Carrie Ann Davison ’17, Christopher DiPreta ’17, Devyn Greenberg ’17, Hallie Huffaker ’17, Daniel Lee ’17, Daniel Magoon ’17, Meghana Mishra ’17, Olivia Powell ’17, Abiah Pritchard ’17, Yue Wang ’17, Qi Wei ’17, Alisa White ’17, Yerin Yang ’17, Zhecheng Yao ’17, Yichen Zhang ’17 and Ran Zhuo ’17. </p>
+				<p>	To qualify for membership, an undergraduate must have completed eight resident or off-campus terms at the College, and rank in the top 20 students in their class based on GPA. </p>
+				<p>	The Phi Beta Kappa Sophomore prize is given to students who have completed five resident or off-campus terms at the College and have the highest academic rank. Seven members of the Class of 2018 will be awarded with this prize: Katherine Clayton ’18, Lillian Eisner ’18, Patrick Harvey ’18, Kevin Kang ’18, Hung Nguyen ’18, Nicholas Norwitz ’18 and Jean Zhou ’18. </p>
+				<p><em>Huffaker is a member of The Dartmouth Senior Staff.</em></p>
+				<p class="homepage"><a href="#">Back to the top</a></p>
+			</div>
 
-<div class="article 1">
+			<!--ARTICLE 6-->
+			<div class="article">
+				<h1>Observations on Religion</h1>
+				<p class="by-line">By: Michaela Ledoux</p>
+				<p>	Dartmouth’s chapter of Phi Beta Kappa inducted 20 new members from the Class of 2017 last night. The annual induction ceremony was held at College President Phil Hanlon’s house. </p>
+				<p>	The Class of 2017 inductees are Marielle Brady ’17, Brian Chen ’17, Hae-Lin Cho ’17, Liza Couser ’17, Carrie Ann Davison ’17, Christopher DiPreta ’17, Devyn Greenberg ’17, Hallie Huffaker ’17, Daniel Lee ’17, Daniel Magoon ’17, Meghana Mishra ’17, Olivia Powell ’17, Abiah Pritchard ’17, Yue Wang ’17, Qi Wei ’17, Alisa White ’17, Yerin Yang ’17, Zhecheng Yao ’17, Yichen Zhang ’17 and Ran Zhuo ’17. </p>
+				<p>	To qualify for membership, an undergraduate must have completed eight resident or off-campus terms at the College, and rank in the top 20 students in their class based on GPA. </p>
+				<p>	The Phi Beta Kappa Sophomore prize is given to students who have completed five resident or off-campus terms at the College and have the highest academic rank. Seven members of the Class of 2018 will be awarded with this prize: Katherine Clayton ’18, Lillian Eisner ’18, Patrick Harvey ’18, Kevin Kang ’18, Hung Nguyen ’18, Nicholas Norwitz ’18 and Jean Zhou ’18. </p>
+				<p><em>Huffaker is a member of The Dartmouth Senior Staff.</em></p>
+				<p class="homepage"><a href="#">Back to the top</a></p>
+			</div>
 
-            <div style="width:728px;margin:0;padding:0">  <a><img src="img/Unknown.jpeg" border="0" alt=""></a>
-    </div>
-</div>
+			<!--ARTICLE 7-->
+			<div class="article">
+				<h1>An Old Commitment, Embraced Anew</h1>
+				<p class="by-line">By: Amanda Zhou</p>
+				<p>	Dartmouth’s chapter of Phi Beta Kappa inducted 20 new members from the Class of 2017 last night. The annual induction ceremony was held at College President Phil Hanlon’s house. </p>
+				<p>	The Class of 2017 inductees are Marielle Brady ’17, Brian Chen ’17, Hae-Lin Cho ’17, Liza Couser ’17, Carrie Ann Davison ’17, Christopher DiPreta ’17, Devyn Greenberg ’17, Hallie Huffaker ’17, Daniel Lee ’17, Daniel Magoon ’17, Meghana Mishra ’17, Olivia Powell ’17, Abiah Pritchard ’17, Yue Wang ’17, Qi Wei ’17, Alisa White ’17, Yerin Yang ’17, Zhecheng Yao ’17, Yichen Zhang ’17 and Ran Zhuo ’17. </p>
+				<p>	To qualify for membership, an undergraduate must have completed eight resident or off-campus terms at the College, and rank in the top 20 students in their class based on GPA. </p>
+				<p>	The Phi Beta Kappa Sophomore prize is given to students who have completed five resident or off-campus terms at the College and have the highest academic rank. Seven members of the Class of 2018 will be awarded with this prize: Katherine Clayton ’18, Lillian Eisner ’18, Patrick Harvey ’18, Kevin Kang ’18, Hung Nguyen ’18, Nicholas Norwitz ’18 and Jean Zhou ’18. </p>
+				<p><em>Huffaker is a member of The Dartmouth Senior Staff.</em></p>
+				<p class="homepage"><a href="#">Back to the top</a></p>
+			</div>
 
-	<hr>
+			<!--ARTICLE 8-->
+			<div class="article">
+				<h1>Through the Looking Glass</h1>
+				<p class="by-line">By: Natalie Mendolia</p>
+				<p>	Dartmouth’s chapter of Phi Beta Kappa inducted 20 new members from the Class of 2017 last night. The annual induction ceremony was held at College President Phil Hanlon’s house. </p>
+				<p>	The Class of 2017 inductees are Marielle Brady ’17, Brian Chen ’17, Hae-Lin Cho ’17, Liza Couser ’17, Carrie Ann Davison ’17, Christopher DiPreta ’17, Devyn Greenberg ’17, Hallie Huffaker ’17, Daniel Lee ’17, Daniel Magoon ’17, Meghana Mishra ’17, Olivia Powell ’17, Abiah Pritchard ’17, Yue Wang ’17, Qi Wei ’17, Alisa White ’17, Yerin Yang ’17, Zhecheng Yao ’17, Yichen Zhang ’17 and Ran Zhuo ’17. </p>
+				<p>	To qualify for membership, an undergraduate must have completed eight resident or off-campus terms at the College, and rank in the top 20 students in their class based on GPA. </p>
+				<p>	The Phi Beta Kappa Sophomore prize is given to students who have completed five resident or off-campus terms at the College and have the highest academic rank. Seven members of the Class of 2018 will be awarded with this prize: Katherine Clayton ’18, Lillian Eisner ’18, Patrick Harvey ’18, Kevin Kang ’18, Hung Nguyen ’18, Nicholas Norwitz ’18 and Jean Zhou ’18. </p>
+				<p><em>Huffaker is a member of The Dartmouth Senior Staff.</em></p>
+				<p class="homepage"><a href="#">Back to the top</a></p>
+			</div>
 
-<div class="article 2">
+		</div>
+		<script>
+		function goToAnchor(anchor) {
+		  var loc = document.location.toString().split('#')[0];
+		  document.location = loc + '#' + anchor;
+		  return false;
+		}
 
-            <div style="width:728px;margin:0;padding:0">  <a><img src="img/Unknown-1.jpeg" border="0" alt=""></a>
-    </div>
-</div>
+		function displayArticle(id) {
+			// First hide all the articles
+			var divs = document.getElementsByClassName('article');
 
-	</div>
+			for (var i=0; i<divs.length; i++) {
+				if (i!=id) {
+					console.log('Hiding article '+i);
+					divs[i].style.display = 'none';
+				}
+				else {
+					console.log('Showing article '+i);
+					divs[i].style.display = 'block';
+				}
+			}
 
-</div>
-</div>
-
+			goToAnchor('start_article');
+		}
+		</script>
 	</body>
 </html>
-
-
-<!-- 70 1.1464447975159 -->
