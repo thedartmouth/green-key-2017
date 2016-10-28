@@ -106,10 +106,15 @@ header p {
   height: 40px;
 }
 
-.article img {
+.image {
   float: left;
   padding: 20px;
   max-width: 60%;
+}
+
+.image p {
+  font-style: italic;
+  font-size: 0.8em;
 }
 
 @media only screen and (max-width: 640px) {
