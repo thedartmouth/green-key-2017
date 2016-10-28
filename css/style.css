@@ -20,6 +20,10 @@ header p {
   z-index: 200;
 }
 
+.mobile_bonfire {
+  display: none;
+}
+
 .article_list {
   display: flex;
   justify-content: space-around;
@@ -108,7 +112,12 @@ header p {
     margin-right: 20px;
   }
   .bonfire {
-    background-image: url("../img/bonfiremobile.jpg");
-    background-size: contain;
+    display: none;
+  }
+  .mobile_bonfire {
+    display: block;
+  }
+  .mobile_bonfire img {
+    height: 200px;
   }
 }
