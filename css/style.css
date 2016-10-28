@@ -109,5 +109,6 @@ header p {
   }
   .bonfire {
     background-image: url("../img/bonfiremobile.jpg");
+    background-size: contain;
   }
 }
