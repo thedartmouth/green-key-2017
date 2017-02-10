@@ -137,6 +137,21 @@ a:hover.back-to-top {
     font-style: normal;
     font-weight: 400;
     src: local('LinotypeZapfino One'), local('LTZapfinoOne-Regular'),
-        url(linotypezapfino-one.tff) format('woff'),
+        url(linotypezapfino-one.ttf) format('woff'),
         url(linotypezapfino-one.ttf) format('truetype');
+}
+
+@media screen and (max-device-width : 320px)
+{
+  .home
+  {
+    font:200%;
+  }
+}
+@media screen and (max-device-width : 1204px)
+{
+  .home
+  {
+    font:800%;
+  }
 }
