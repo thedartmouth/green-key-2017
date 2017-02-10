@@ -64,6 +64,10 @@ nav ul li {
 	padding-top: 5%
 }
 
+.home h1 {
+	font-size: 600%;
+}
+
 .light {
 	font-weight: 100;
 	color: #717070;
@@ -130,19 +134,4 @@ a.back-to-top {
 }
 a:hover.back-to-top {
 	background-color: #000;
-}
-
-@media screen and (max-device-width : 320px)
-{
-  .home h1
-  {
-    font-size: 200%;
-  }
-}
-@media screen and (max-device-width : 1204px)
-{
-  .home h1
-  {
-    font-size: 800%;
-  }
 }
