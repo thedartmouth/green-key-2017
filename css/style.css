@@ -131,3 +131,12 @@ a.back-to-top {
 a:hover.back-to-top {
 	background-color: #000;
 }
+
+@font-face {
+    font-family: 'LinotypeZapfino One';
+    font-style: normal;
+    font-weight: 400;
+    src: local('LinotypeZapfino One'), local('LTZapfinoOne-Regular'),
+        url(http://allfont.de/cache/fonts/linotypezapfino-one_fcc85b02d6a26b8231894a7f492682ef.woff) format('woff'),
+        url(http://allfont.de/cache/fonts/linotypezapfino-one_fcc85b02d6a26b8231894a7f492682ef.ttf) format('truetype');
+}
