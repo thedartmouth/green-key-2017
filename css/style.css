@@ -132,26 +132,17 @@ a:hover.back-to-top {
 	background-color: #000;
 }
 
-@font-face {
-    font-family: 'LinotypeZapfino One';
-    font-style: normal;
-    font-weight: 400;
-    src: local('LinotypeZapfino One'), local('LTZapfinoOne-Regular'),
-        url(linotypezapfino-one.ttf) format('woff'),
-        url(linotypezapfino-one.ttf) format('truetype');
-}
-
 @media screen and (max-device-width : 320px)
 {
-  .home
+  .home h1
   {
-    font:200%;
+    font-size: 200%;
   }
 }
 @media screen and (max-device-width : 1204px)
 {
-  .home
+  .home h1
   {
-    font:800%;
+    font-size: 800%;
   }
 }
