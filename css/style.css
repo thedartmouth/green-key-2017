@@ -1,4 +1,4 @@
-body {
+/*body {
 font-family: source-sans-pro;
 background-color: #f2f2f2;
 margin-top: 0px;
@@ -9,6 +9,13 @@ font-style: normal;
 font-weight: 200;
 font-size: 20px;
 }	
+*/
+
+.navbar {
+	color: limegreen;
+	background-color: rgba(0,0,0,0.85);
+	z-index: 800;
+}
 
 .container {
 	width: 100%;
@@ -66,6 +73,7 @@ nav ul li {
 
 .home h1 {
 	font-size: 600%;
+	color: limegreen;
 }
 
 .light {
@@ -79,12 +87,27 @@ nav ul li {
 }
 
 .transparent-color{
-	background-color: rgba(211,211,211,0.9)
+	background-color: rgba(255,255,255,0.75);
+	color: rgb(75,0,130);
+	border-radius: 3px;
+	z-index: 100;
+	font-weight: bold;
+	font-family: arial;
 }
 
-.box:hover {
+.box {
+	background-color: #f2f2f2;
+	z-index: 20;
+}
+
+img {
+	z-index: -1;
+	opacity: 0.7;
+}
+
+img:hover {
 	cursor: pointer;
-  	opacity: .85;
+  	opacity: 1.0;
 }
 
 .article {
@@ -106,7 +129,7 @@ nav ul li {
   padding-bottom: 14px;
 }
 
-.article p {
+.article {
   font-size: 1.4em;
 }
 
