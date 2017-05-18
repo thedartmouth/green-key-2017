@@ -63,17 +63,18 @@ nav ul li {
 
 .home {
 	padding-top: .2em;
-	background-image: url('../images/baker-berry.jpg');
+	background-image: url('../images/header.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center center;
 	height: 800px;
-	padding-top: 5%
+	padding-top: 10%
 }
 
 .home h1 {
 	font-size: 600%;
-	color: limegreen;
+	color: darkgreen;
+	background-color: rgba(255,255,0,0.65);
 }
 
 .light {
@@ -87,8 +88,8 @@ nav ul li {
 }
 
 .transparent-color{
-	background-color: rgba(255,255,255,0.75);
-	color: rgb(75,0,130);
+	background-color: rgba(255,255,0,0.75);
+	color: darkgreen;
 	border-radius: 3px;
 	z-index: 100;
 	font-weight: bold;
