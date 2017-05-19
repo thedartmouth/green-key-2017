@@ -64,11 +64,15 @@ nav ul li {
 .home {
 	padding-top: .2em;
 	background-image: url('../images/header.jpg');
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center center;
+
 	height: 800px;
-	padding-top: 10%
+	padding-top: 10%;
+      /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 50;
 }
 
 .home h1 {
@@ -126,8 +130,9 @@ img:hover {
   padding-top: 5%;
 }
 
-.article h1,h3 {
+.article h1,h2,h3 {
   text-align: center;
+  font-family: georgia;
 }
 
 .articles hr {
@@ -172,10 +177,11 @@ a:hover.back-to-top {
   flex-direction: row;
   flex-wrap: wrap;
   width: 100%;
-  height: auto;
-  background-color: rgba(0,0,0,0.2);
+  height: 100%;
+  background-color: black;
+  opacity: 0.8;
   padding: 10px;
-  z-index: -100;
+  z-index: 100;
 }
 
 .article_box {
@@ -184,7 +190,7 @@ a:hover.back-to-top {
   padding: 28px;
   text-align: center;
   color: white;
-  font-family: georgia;
+  font-family: helvetica,arial;
   vertical-align: center;
   border: 1px solid rgb(40,80,40);
   border-radius: 5px;
